@@ -10,13 +10,13 @@ import BetweenComponents from './transition-demos/BetweenComponents.vue'
 
 # Transition {#transition}
 
-Vue offers two built-in components that can help work with transitions and animations in response to changing state:
+يوفر Vue مكونين مدمجين يمكن أن يساعدا في العمل مع الانتقالات والرسوم المتحركة استجابة لتغير الحالة:
 
-- `<Transition>` for applying animations when an element or component is entering and leaving the DOM. This is covered on this page.
+- `<Transition>` لتطبيق التحركات عند دخول عنصر أو مكون إلى الـ DOM ومغادرته. تم تغطيته في هذه الصفحة.
 
-- `<TransitionGroup>` for applying animations when an element or component is inserted into, removed from, or moved within a `v-for` list. This is covered in [the next chapter](/guide/built-ins/transition-group.html).
+- `<TransitionGroup>` تطبيق التحركات عند إدراج عنصر أو مكون في قائمة `v-for` أو إزالتها منها أو نقلها داخلها.. تم تغطيته في [الفصل التالي](/guide/built-ins/transition-group.html).
 
-Aside from these two components, we can also apply animations in Vue using other techniques such as toggling CSS classes or state-driven animations via style bindings. These additional techniques are covered in the [Animation Techniques](/guide/extras/animation.html) chapter.
+بجانب هاذين المكونين، نستطيع تطبيق الحركات في Vue باستخدام تقنيات أخرى، مثل تبديل فئات CSS أو الحركات التي تحركها الحالة عبر ارتباطات نمط. هذه تقنيات إضافية تم تغطيتها في فصل [تقنيات الحركة](/guide/extras/animation.html).
 
 ## The `<Transition>` Component {#the-transition-component}
 
